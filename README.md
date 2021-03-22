@@ -21,7 +21,7 @@ services:
     build: backend
     ...
   db:
-    image: mysql:8.0.19
+    image: mysql:8
     ...
   proxy:
     build: proxy
